@@ -69,6 +69,22 @@
 			color: red;
 			font-weight: bold;
 		}
+		.ex10 > input {
+			outline-style: none;
+			border-style: none;
+		}
+		.ex10 > input:enabled{
+			background-color: #EFEFEF;
+		}
+		.ex10 > input:disabled{
+			background-color: black;
+		}
+		.ex10 > input:focus{
+			outline: 2px solid blue;
+		}
+		.ex10 > input:checked{
+			box-shadow: 0 0 0 3px red;
+		}
 	</style>
 </head>
 <body>
@@ -149,6 +165,14 @@
 	<div class="ex9">
 		<span>active - 클릭을 유지 하세요.</span><br>
 		<span>hover - 마우스를 올려두세요.</span>
+	</div>
+	<div class="ex10">
+		<input type="text"><br>
+		<input type="text"><br>
+		<input type="text" disabled><br>
+		<input type="checkbox">
+		<input type="checkbox">
+		<input type="checkbox" checked>
 	</div>
 </body>
 </html>
