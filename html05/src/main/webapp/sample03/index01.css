@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1 {
+	color: red !important;
+	font-size: 40px;
+}
+
+h2 {
+	color: red;
+	font-size: 30px;
+}
+
+#title01 {
+	color: green;	
+}
